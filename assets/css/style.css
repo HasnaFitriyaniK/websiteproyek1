@@ -961,7 +961,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
@@ -1083,8 +1083,21 @@ section {
   opacity: 1;
 }
 
+video{
+  /* width: 100%;
+  height: auto;
+  max-width: 100%; */
+  margin-bottom: 20px;
+}
+
+audio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*--------------------------------------------------------------
-# Portfolio Details
+# portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 0;
